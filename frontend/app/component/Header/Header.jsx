@@ -18,7 +18,7 @@ const ptSans = PT_Sans({
 
 const Header = () => {
   return (
-    <nav className="w-full h-20 bg-blue-100 flex px-20">
+    <nav className="w-full h-20 bg-blue-00 flex px-32 py-5">
       <div className="w-[15%] bg-green-00 h-20 flex items-center justify-start">
         <div className="w-full h- bg-blue-00 flex items-baseline justify-start gap-1">
         <div className={anton.className}>
@@ -30,9 +30,9 @@ const Header = () => {
         </div>
         </div>
       </div>
-      <div className="w-[60%] bg-green-200 h-20 flex items-center justify-start px-5">
+      <div className={` ${ptSans.className} w-[60%] bg-green-00 h-20 flex items-center justify-start px-5 text-[#151515] header_text`}>
       <ul>
-            <li className="space-x-8 font-semibold text-base bg-red-00 w-full flex items-center justify-center">
+            <li className="space-x-8 text-base bg-red-00 w-full flex items-center justify-center header_text">
               <Link
                 className="hover:text-blue-500 transition ease-in-out duration-200"
                 href="/world"
@@ -75,9 +75,9 @@ const Header = () => {
             </li>
           </ul>
       </div>
-      <div className="w-[25%] bg-red-300 h-20 flex items-center justify-end gap-2">
-        <p>Sign in</p>
-        <button className="bg-black px-5 py-2 rounded-3xl">Register to Get Listed</button>
+      <div className="w-[25%] bg-red-00 h-20 flex items-center justify-end gap-5">
+        <p className="header_text_med">Sign in</p>
+        <button className="bg-[#151515] header_text_med_2">Register to Get Listed</button>
       </div>
     </nav>
   );
