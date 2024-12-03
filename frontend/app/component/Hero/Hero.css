@@ -1,0 +1,42 @@
+.direcroey_btn_1 {
+  width: 125pxpx;
+  height: 38pxpx;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 100px;
+  opacity: 0px;
+}
+.direcroey_btn_1_txt {
+  font-family: Lufga;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+.hero_h1 {
+  font-family: Lufga;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+.velvet_italic {
+  font-family: Lufga;
+  font-size: 44px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
