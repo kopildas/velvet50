@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 200px 200px;
-    border: 1px solid white;
     padding: 2rem;
 }
 .footer-container .footer-logo-container{
