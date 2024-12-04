@@ -9,14 +9,10 @@
   color: #151515;
 }
 
-/* img box */
-.hero_img_box {
-  background: #f0f0f0 url("https://i.ibb.co.com/qFk7Y1y/Group-2085664223.png")
-    no-repeat center/cover;
-}
+
 
 .slider {
-  --slider-width: 200px;
+  --slider-width: 260px;
   --slider-height: 100px;
   --slider-quantity: 23;
   width: 100%;
