@@ -2,13 +2,13 @@
     background-color: black;
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 592px 592px;
+    grid-template-rows: 200px 200px;
     border: 1px solid white;
     padding: 2rem;
 }
 .footer-container .footer-logo-container{
-    display: flex;
-    align-items: center;
+    margin-top: 17%;
+
 }
 .input-div input{
     border-radius: 182px;
@@ -17,7 +17,8 @@
     background-color: black;
     padding-top: 8px;
     padding-bottom: 8px;
-    width: 70%;
+    width: 75%;
+    border-right: none;
 }
 .input-div{
     position: relative;
@@ -29,7 +30,7 @@
     display: inline;
     position: absolute;
     left: 38.5%;
-    bottom: 0.5%;
+    bottom: 0.6%;
 }
 .input-group button{
     border: 1px solid white;

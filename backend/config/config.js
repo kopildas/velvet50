@@ -1,6 +1,12 @@
 require("dotenv").config();
 const port = process.env.PORT || 4000;
 const mongoose = require("mongoose");
+const SMTP_USER= process.env.SMTP_USERNAME;
+const SMTP_PASS= process.env.SMTP_PASS;
+const clientURL = process.env.CLIENT_URL; 
+const jwt= require("jsonwebtoken");
+const access_token= process.env.ACCESS_TOKEN;
+
 
 const dbConnect = async()=>{
     try{
@@ -14,4 +20,4 @@ const dbConnect = async()=>{
     }
 }
 
-module.exports= {port, mongoose, dbConnect};
+module.exports= {port, mongoose, dbConnect, SMTP_USER, SMTP_PASS, clientURL, jwt, access_token};
