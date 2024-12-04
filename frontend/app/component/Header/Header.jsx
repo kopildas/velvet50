@@ -6,7 +6,7 @@ import Instagram_svg from "./Instagram_svg";
 import Link from 'next/link'
 // import '../styles/globals.css';
 
-const anton = Anton({
+export const anton = Anton({
   subsets: ["latin"],
   weight: "400",
 });
