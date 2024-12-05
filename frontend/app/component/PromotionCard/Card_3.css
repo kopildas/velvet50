@@ -1,0 +1,96 @@
+.card_3_box {
+  width: 614px;
+  height: 656px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative; 
+}
+
+.card_3_img_box {
+  background: #f0f0f0 url("https://i.ibb.co.com/MV8X1PM/600a09f7091b3d0c42bb98eab22eda9c.png") no-repeat
+    center/cover;
+}
+.card_4_img_box {
+  background: #f0f0f0 url("https://i.ibb.co.com/0M34MF4/05900c2ef3f0aacb704b18e018d1decc-1.png") no-repeat
+    center/cover;
+  position: relative; /* Make sure this is the reference for absolute positioning */
+  z-index: 1; /* Ensures that this container stays in the background */
+}
+
+.card_4_img_box_2 {
+  background: #f0f0f0 url("https://i.ibb.co.com/F3vYJJW/4421b71a956061d7cea722a37b6c3ac1.jpg") no-repeat
+    center/cover;
+  position: absolute; /* Positioned absolutely inside card_4_img_box */
+
+}
+
+.std_reg_txt {
+  font-family: Lufga;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+.prv_sm_bx_1 {
+  width: 318px;
+  height: 52px;
+  padding: 14px 16px 14px 16px;
+  gap: 16px;
+  border-radius: 100px;
+  border: 1px;
+  /* opacity: 0px; */
+  background-color: #ffffff;
+}
+.prv_sm_bx_2 {
+  width: 534px;
+  height: 65px;
+  top: 551px;
+  left: 40px;
+  padding: 22px 0px 21px 0px;
+  gap: 0px;
+  border-radius: 118px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: 20px 23px 24px 0px #00000040;
+
+  /* opacity: 0px; */
+  background-color: #000000;
+}
+
+.prb_txt_p {
+  font-family: Product Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #141414;
+}
+.prb_txt_p_2 {
+  font-family: Product Sans Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.83px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: #ffffff;
+}
+.card_2_p{
+  font-family: Lufga;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#1D1D1D;
+padding-bottom: 10px;
+}

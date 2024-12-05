@@ -1,8 +1,12 @@
 .card {
-    width: 450px;
-    height: 500px;
+    width: 657px;
+    height: 656px;
+    /* left: -24px; */
+    gap: 0px;
+    opacity: 0px;
+    
     border-radius: 10%;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
     position: relative;
 }
 .card-img img{
@@ -12,4 +16,23 @@
     position: absolute;
     top: 25%;
     left: 4%;
+}
+.card_2_p{
+    font-family: Lufga;
+font-size: 40px;
+font-weight: 500;
+line-height: 56px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #1D1D1D;
+}
+
+.prm_crd {
+    /* width: 1440px; */
+height: 1004px;
+gap: 0px;
+opacity: 0px;
+background-color: #FFFDFC;
 }
