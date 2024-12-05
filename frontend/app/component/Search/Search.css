@@ -10,15 +10,34 @@ input {
   /* width:300px; */
   border: none;
   /* border-bottom:1px solid #757575; */
-  background-color: transparent;
+  
+  font-family: Product Sans Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #333333;
+  padding-top: 20px;
 }
 input:focus {
+  padding-top: 20px;
   outline: none;
+  font-family: Product Sans Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #333333;
+  /* padding-top: 5px; */
 }
 
 /* LABEL ======================================= */
 label {
-  color: #999;
+  color: #333333;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
@@ -29,22 +48,30 @@ label {
   -moz-transition: all 0.2s;
   -webkit-transition: all 0.2s;
 }
-.filter_txt_css{
+.filter_txt_css {
   font-family: Product Sans Medium;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color:#333333;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #333333;
 }
 /* active state */
 input:focus ~ label,
 input:valid ~ label {
-  top: -10px;
+  top: -1px;
+  padding-bottom: 20px;
   font-size: 14px;
-  color: #5264ae;
+  color: #535252;
+  font-family: Product Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 /* BOTTOM BARS ================================= */

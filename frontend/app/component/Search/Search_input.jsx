@@ -2,7 +2,7 @@ import React from "react";
 
 const Search_input = ({lebel_name}) => {
   return (
-    <div className="group bg-blue-00 w-32">
+    <div className="group bg-blue-00 w-32 mt-2">
       <input type="text" required />
       <span className="highlight"></span>
       {/* <span class="bar"></span>  */}

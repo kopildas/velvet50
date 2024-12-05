@@ -11,6 +11,7 @@ import Sm_box_1_svg from "./Sm_box_1_svg";
 import Map_svg from "./Map_svg";
 import Share_svg from "./Share_svg";
 import Red_star_svg from "./Red_star_svg";
+import Card_1 from "../UI/Card_1";
 
 const Hero = () => {
   const services = [
@@ -75,8 +76,8 @@ const Hero = () => {
         Services Under $50</h1>
       </div>
       <Search />
-      <div className="w-full  flex gap-5 mb-20 mt-10">
-        <div className="w-[70%] h-[622px] rounded-[40px] bg-slate-600 hero_img_box relative">
+      <div className="w-full  flex justify-between gap-5 mb-20 mt-10">
+        <div className="w-[70%] h-[522px] rounded-[40px] bg-slate-600 hero_img_box relative">
         <div className=" absolute mb-5 ml-6  bottom-0 flex items-center justify-center w-auto gap-5">
         <Number_box number={"1397"} text={"5 Star Happy Reviews"}/>
         <Star_svg/>
@@ -93,7 +94,7 @@ const Hero = () => {
 
         </div>
         
-        <div className="w-[30%] h-[622px] rounded-[40px] bg-slate-400">
+        {/* <div className="w-[30%] h-[622px] rounded-[40px] bg-slate-400">
           <div className="w-full h-1/2 rounded-t-[40px] bg-red-00 relative hero_img_box_2">
             <div className="w-12 h-12 bg-black absolute mt-5 mr-5 rounded-full right-0 flex items-center justify-center"><Arrow_svg/></div>
             <div className="absolute mb-5 mr-6  bottom-0 right-0 bg-red-00 flex items-center justify-center w-auto gap-2"><div className="rounded-full cursor-pointer hover:scale-110 transition duration-150 ease-in-out social_box_2 border-[#DDDDDD1A]"><Printers_svg/></div>
@@ -122,7 +123,9 @@ const Hero = () => {
               <p className="book_srv_txt">Book Service</p>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        <Card_1/>
       </div>
 
       {/* Slider */}
@@ -130,14 +133,14 @@ const Hero = () => {
         <div className="list">
           {/* Map over the original array */}
           {services.map((service, index) => (
-            <div key={index} className="item">
+            <div key={index} className="item flex items-center justify-center">
               <div className="px-5 py-4 text-[#a6a6a6] slide_one_text">{service}</div>
             </div>
           ))}
 
           {/* Duplicate items for seamless looping */}
           {services.map((service, index) => (
-            <div key={index} className="item">
+            <div key={index} className="item flex items-center justify-center">
               <div className="px-5 py-4 text-[#a6a6a6] slide_one_text">{service}</div>
             </div>
           ))}
