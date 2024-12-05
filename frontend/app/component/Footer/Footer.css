@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 200px 200px;
-    border: 1px solid white;
     padding: 2rem;
 }
 .footer-container .footer-logo-container{
@@ -15,21 +14,75 @@
     border: 0.5px solid white;
     padding-left: 16px;
     background-color: black;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     width: 75%;
     border-right: none;
+    font-family: Product Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.41px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 .input-div{
     position: relative;
 }
+
+.nws_2 {
+    font-family: Lufga;
+font-size: 40px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#F6F0ED;
+}
+.nws_2_p {
+    font-family: Product Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.ftr_txt_2{
+    font-family: Lufga;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#F6F0EDCC;
+}
+.ftr_srch_txt{
+    font-family: Product Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.41px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#F6F0EDE5;
+}
+
+
 .input-div input:focus-within{
     border: 0.5px solid white;
 }
 .input-div .input-group{
     display: inline;
     position: absolute;
-    left: 38.5%;
+    left: 47%;
     bottom: 0.6%;
 }
 .input-group button{
@@ -45,5 +98,48 @@
     width: 239px;
 }
 .footer-text-container{
-    margin-left:10% ;
+    /* margin-left:10% ; */
+}
+.btn-white{
+    font-family: Product Sans Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.83px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.ftr_txt_sm{
+    font-family: Product Sans Medium;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#F6F0ED;
+}
+
+.ftr_txt_part3{
+    font-family: Product Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#F6F0ED;
+margin-left: 48px;
+}
+.last_ftr_txt{
+    font-family: Product Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:#F6F0ED;
 }
